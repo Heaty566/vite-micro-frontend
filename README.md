@@ -147,7 +147,7 @@ Run build and Run Serve
     yarn run serve
 ```
 
-The Counter.js will able to use at http://localhost:5001/Counter.js you ccan click for check it also have code
+The Counter.js will able to use at http://localhost:5001/Counter.js you can click for check it also have code
 
 ## Running Test
 
