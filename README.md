@@ -106,7 +106,7 @@ Also change id in index.html because we change the root id to counter id
 </html>
 ```
 
-Before change config we should install vite-plugin-css-injected-by-js, this package will make the CSS union to into one JavaScript file
+Before change config we should install vite-plugin-css-injected-by-js, this package will make the CSS union into one JavaScript file
 
 ```
 yarn add vite-plugin-css-injected-by-js -D
