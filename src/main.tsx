@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./index.css";
+import Counter from "./components/Counter";
 
 ReactDOM.createRoot(document.getElementById("counter") as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <Counter />
   </React.StrictMode>
 );
