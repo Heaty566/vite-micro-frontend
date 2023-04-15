@@ -75,7 +75,7 @@ Add the Tailwind directives to Counter CSS
 @tailwind utilities;
 ```
 
-At main.tsx change to with id "counter" will render your using in another host
+At main.tsx change to with id "counter" will render in another host
 
 ```tsx
 import React from "react";
