@@ -9,10 +9,15 @@ export default defineConfig({
     build: {
         target: 'esnext',
         rollupOptions: {
-            input: { pageOne: 'src/containers/PageOne.tsx', pageTwo: 'src/containers/PageTwo.tsx' },
+            input: {
+                pageOne: 'src/containers/PageOne.tsx',
+                pageTwo: 'src/containers/PageTwo.tsx',
+                header: 'src/containers/Header.tsx',
+                footer: 'src/containers/Footer.tsx',
+            },
             output: {
-                name: 'app',
-                entryFileNames: 'app.js',
+                entryFileNames: '[name].js',
+                chunkFileNames: '[name].js',
             },
         },
     },

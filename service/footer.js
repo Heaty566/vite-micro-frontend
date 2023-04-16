@@ -1,0 +1,1 @@
+import{c as t,j as e,r}from"./client.js";const o=()=>e.jsx("div",{className:"h-40 bg-blue-500",children:"Footer"});t.createRoot(document.getElementById("footer")).render(e.jsx(r.StrictMode,{children:e.jsx(o,{})}));
