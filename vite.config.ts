@@ -9,8 +9,11 @@ export default defineConfig({
         target: 'esnext',
 
         rollupOptions: {
+            input: {
+                app: '/src/containers/PageOne.tsx',
+                app2: '/src/containers/PageTwo.tsx',
+            },
             output: {
-                inlineDynamicImports: true,
                 name: 'app',
                 entryFileNames: 'app.js',
             },
