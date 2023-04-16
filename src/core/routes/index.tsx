@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, BrowserRouter, Route } from 'react-router-dom';
 
 const PageOne = React.lazy(() => import('../../containers/PageOne'));
 const PageTwo = React.lazy(() => import('../../containers/PageTwo'));

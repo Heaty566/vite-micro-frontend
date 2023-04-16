@@ -7,6 +7,7 @@ export default defineConfig({
     plugins: [react(), cssInjectedByJsPlugin()],
     build: {
         target: 'esnext',
+
         rollupOptions: {
             output: {
                 inlineDynamicImports: true,
