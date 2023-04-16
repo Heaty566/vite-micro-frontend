@@ -8,10 +8,12 @@ export default defineConfig({
     plugins: [react(), cssInjectedByJsPlugin()],
     build: {
         target: 'esnext',
-        lib: {
-            entry: { pageOne: 'src/containers/PageOne.tsx', pageTwo: 'src/containers/PageTwo.tsx' },
-
-            formats: ['es'],
+        rollupOptions: {
+            input: { pageOne: 'src/containers/PageOne.tsx', pageTwo: 'src/containers/PageTwo.tsx' },
+            output: {
+                name: 'app',
+                entryFileNames: 'app.js',
+            },
         },
     },
 });
