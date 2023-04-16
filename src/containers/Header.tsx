@@ -1,5 +1,6 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom/client';
+import '../styles/index.css';
 interface HeaderProps {}
 
 export const Header: React.FC<HeaderProps> = () => {
